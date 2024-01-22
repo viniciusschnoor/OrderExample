@@ -43,7 +43,6 @@ namespace OrderExample.Entities
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Order items:");
             sb.AppendLine("Order moment: " + Moment);
             sb.AppendLine("Order status: " + Status);
             sb.AppendLine("Client: " + Client.Name + " (" + Client.BirthDate + ") - " + Client.Email);
